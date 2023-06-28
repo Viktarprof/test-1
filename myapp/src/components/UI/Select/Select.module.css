@@ -1,0 +1,34 @@
+.title_select {
+	color: #7c7c7c;
+	font-size: 12px;
+	font-family: Work Sans;
+	font-weight: 300;
+}
+
+select {
+	width: 235px;
+	height: 42px;
+	text-align: left;
+	padding: 0px 0.1px 0.1px 0px;
+	border: none;
+	border-bottom: 1px solid #f2f2f2;
+	color: #111;
+	font-size: 14px;
+	font-family: Work Sans;
+}
+.select_nationality {
+	width: 235px;
+	height: 23px;
+}
+.select_days {
+	width: 56px;
+	height: 23px;
+}
+.select_months {
+	width: 91px;
+	height: 23px;
+}
+.select_years {
+	width: 68px;
+	height: 23px;
+}

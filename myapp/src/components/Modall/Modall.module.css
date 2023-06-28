@@ -1,0 +1,70 @@
+.modal_container {
+	height: 480px;
+
+	display: flex;
+
+    border: 1px solid red;
+}
+
+.sign_up {
+	width: 137.2px;
+	height: 480px;
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+
+	background-color: var(--sign_up);
+}
+
+.sign_up p {
+	width: 60px;
+	height: 162px;
+
+	margin: 296.02px 5.7px 21.98px 68.5px;
+
+	transform: rotate(180deg);
+	unicode-bidi: bidi-override;
+	writing-mode: vertical-rl;
+
+	color: var(--sign_up_text);
+	font-size: 49px;
+	font-family: PT Sans;
+	letter-spacing: 0.5px;
+}
+
+.form_container {
+	width: 527.8px;
+	height: 480px;
+	position: relative;
+}
+
+.contour_animation {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+  }
+
+
+.text {
+    width: 285px;
+    margin: 38.52px 199px 20px 20.8px;
+    font-family: Work Sans;
+}
+
+.text > p:first-child {
+	color: #111;
+	font-size: 22px;
+
+	font-weight: 500;
+	letter-spacing: -0.46px;
+}
+.text > p:nth-child(2) {
+	color: #111;
+	font-size: 14px;
+	font-weight: 300;
+}
