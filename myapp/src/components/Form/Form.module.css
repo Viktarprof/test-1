@@ -1,3 +1,8 @@
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
 .info_user {
 	padding: 0px 0.1px 0.1px 21.2px;
 	display: grid;
@@ -5,7 +10,6 @@
 	grid-template-rows: repeat(2, 1fr);
 	align-items: center;
 	row-gap: 16.18px;
-	/* column-gap: 15px; */
 }
 
 .select_container {
@@ -48,41 +52,61 @@
 }
 
 .gender_container {
-	width: 200px;
+	width: 20px;
 
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center;
-	align-items: center; */
 }
 
 .radio_container {
-	width: 100px;
-
 	display: flex;
 	gap: 19px;
 }
 
-.radio {
-	height: 20px;
+.radio_container {
 	display: flex;
 	align-items: center;
-	gap: 6px;
 }
-label{
-	margin-left: 18px;
+
+.radio_label {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
 }
 
 .container_password {
-
+	position: relative;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	gap: 14.9px;
+	justify-content: center;
+	flex-wrap: wrap
 }
-.login_completele{
-	width: 528px;
-	margin-top: 101.7px;
-	display: flex;
 
+.completele {
+	width: 200px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+
+	margin: 104.3px 20.8px 0px 305.8px;
+}
+
+.errorContainer{
+	width: 100%;
+	display: flex;
+}
+.errorContainer > p{
+	width: 240px;
+}
+.warning_text{
+	color: red;
+    font-size: 10px;
+}
+
+.iconShow{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 40px;
+	bottom: 5px;
 }

@@ -1,9 +1,10 @@
 .modal_container {
 	height: 480px;
 
-	display: flex;
+	box-shadow: 0px 0px 50px 5px black;
 
-    border: 1px solid red;
+	display: flex;
+	position: absolute;
 }
 
 .sign_up {
@@ -47,13 +48,12 @@
 	top: 0;
 	left: 0;
 	z-index: -1;
-  }
-
+}
 
 .text {
-    width: 285px;
-    margin: 38.52px 199px 20px 20.8px;
-    font-family: Work Sans;
+	width: 285px;
+	margin: 38.52px 199px 20px 20.8px;
+	font-family: Work Sans;
 }
 
 .text > p:first-child {
@@ -68,3 +68,53 @@
 	font-size: 14px;
 	font-weight: 300;
 }
+.successfull {
+	width: 527.8px;
+	height: 480px;
+
+	margin-left: 63.8px;
+
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.successfullText h3 {
+	font-family: "Work Sans";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: -0.46px;
+}
+.successfullText p {
+	margin-top: 11px;
+	font-family: "Work Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.textLogin {
+	width: 150px;
+	margin-left: 20px;
+	color: #000;
+	position: relative;
+	bottom: 25px;
+	font-size: 13px;
+	font-family: "Work Sans";
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+span {
+	font-weight: 500;
+	color: var(--sign_up);
+	cursor: pointer;
+}
+.textLoginActive {
+	margin: 180px 0 20px 0;
+}
+

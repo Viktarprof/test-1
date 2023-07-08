@@ -1,5 +1,4 @@
 .input_container {
-	width: 2px;
 	height: 42px;
 
 	padding: 0px 0.1px 0.1px 0px;
@@ -9,14 +8,12 @@
 	justify-content: center;
 	align-items: flex-start;
 	gap: 4.9px;
-
-	flex-shrink: 0;
 }
 
 .title_input {
 	width: 103px;
 	font-size: 12px;
-	font-family: Work Sans;
+	font-family: "Work Sans";
 	font-weight: 300;
 
 	color: #7c7c7c;
@@ -32,9 +29,11 @@ input {
     border-bottom: 1px solid #F2F2F2;
 
 	font-size: 14px;
-	font-family: Work Sans;
+	font-family: "Work Sans";
 
 	color: #111;
+
+	cursor: pointer;
 }
 
 input:-webkit-autofill,
@@ -48,6 +47,27 @@ input:-webkit-autofill:focus {
 	height: 16px;
 
 	transform: scale(1);
-	/* border: 2px solid rgb(255, 0, 132);
-	background-color: red;  */
 }
+
+.inputCart{
+	display: flex;
+}
+
+.inputCart label{
+	margin-left: 10px;
+}
+
+.error {
+	border-color: red;
+}
+
+.errorInputCart{
+	display: flex;
+	flex-direction: column;
+}
+
+.errorMessage {
+	color: red;
+	font-size: 10px;
+}
+  

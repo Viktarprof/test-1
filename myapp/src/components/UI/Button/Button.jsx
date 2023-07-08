@@ -1,9 +1,9 @@
 import React from 'react'
-// import s from './Button.module.css'
+import s from './Button.module.css'
 
-function Button() {
+function Button({ text, styles }) {
   return (
-    <div>Button</div>
+    <button className={`${s[styles]}`}>{text}</button>
   )
 }
 

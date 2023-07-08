@@ -1,0 +1,20 @@
+.form{
+    width: 350px;
+    height: 100%;
+
+    margin-left: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form button{
+    margin-top: 40px;
+}
+
+span{
+	color: var(--sign_up);
+}
